@@ -1,13 +1,16 @@
+@function rem($px){
+    $rem: 37.5px;
+    @return ($px / $rem) + rem;
+}
 body{
     background:pink;
     div{
         color:green;
-        font-size:16px;
-    
+        font-size:rem(12px)
     }
     p{
-        width:100px;
-        height:100px;
+        width:rem(100px);
+        height:rem(100px);
         background:url('./images/right080.png') 0 0 no-repeat
     }
 }

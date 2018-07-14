@@ -1,4 +1,4 @@
-<h2>使用webpack搭建前端开发环境</h3>
+<h2>使用webpack搭建前端开发环境(手把手)</h3>
 <p>---2018-04-15</p>
 <h3>(一)</h3>
 <h4>1、首先在自己的电脑上安装node环境，可以到Node 官网上自行下载，下载地址：<a href="https://nodejs.org/en/">https://nodejs.org/en/</a>，这里就不赘诉；</h4>
@@ -91,4 +91,6 @@ DeprecationWarning: Tapable.plugin is deprecated. Use new API on `.hooks` instea
 <p>24）图片打包 /p>
 <p>安装：npm install --save-dev file-loader   地址：<a href="https://github.com/webpack-contrib/file-loader">https://github.com/webpack-contrib/file-loader</a></p>
 <p>  <a href="https://github.com/webpack-contrib/file-loader ">https://github.com/webpack-contrib/file-loader </a> 处理图片压缩</p>
-
+<h3>项目操作</h3>
+<p>运行项目：npm start</p>
+<p>打包项目：npm run prod</p>
